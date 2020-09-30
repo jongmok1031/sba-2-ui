@@ -2,11 +2,11 @@ export const addTodoAction = todo => ({
     type : "ADD_TODO",  //대문자 = 상수라는뜻
     payload : todo
 })
-export const toggleTOdoAction = todoId => ({ // () 는 json return
+export const toggleTodoAction = todoId => ({ // () 는 json return
     type : "TOGGLE_TODO",
     payload : todoId
 })
-export const deleteTOdoAction = todoId => ({
+export const deleteTodoAction = todoId => ({
     type : "DELETE_TODO",
     payload : todoId
 })

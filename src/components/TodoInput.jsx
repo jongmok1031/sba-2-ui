@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import uuid from 'uuid/v4'
 import {useDispatch} from 'react-redux'
+import {addTodoAction} from '../store/todoReducer'
 
 ///객체 = 기능 + 속성
 // 함수 = 기능
